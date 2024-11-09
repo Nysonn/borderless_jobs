@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #e6e0fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #ac96fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #e2f8fa;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="tel"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background-color: #7CF5FF;
+  color: #ac96fa;
+  border: 1px solid #7CF5FF;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ac96fa;
+  color: #fff;
+}
+
+/* Styles for the signup link */
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #e2f8fa;
+}
+
+.signup-link a {
+  color: #7CF5FF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+  color: #fff;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .login-container {
+      padding: 15px;
+  }
+
+  h2 {
+      font-size: 1.5rem;
+  }
+
+  input[type="tel"],
+  input[type="password"] {
+      font-size: 1rem;
+  }
+
+  .submit-btn {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  input[type="tel"],
+  input[type="password"] {
+      font-size: 0.9rem;
+  }
+
+  .submit-btn {
+      font-size: 0.9rem;
+  }
+}
