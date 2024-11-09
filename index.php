@@ -8,7 +8,7 @@
         <a href="jobs.php">
         <button class="btn">Look for Work</button>
         </a>
-        <a href="login.php">
+        <a href="post-a-job.php">
         <button class="btn">Post a Job</button>
         </a>
   </div>

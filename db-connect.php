@@ -20,7 +20,7 @@ $dsn = "pgsql:host=$host;port=$port;dbname=$dbname;";
 try {
     $pdo = new PDO($dsn, $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Database connected successfully!";
+    // echo "Database connected successfully!";
 } catch (PDOException $e) {
     // If there is a connection error, display a message
     die("Connection failed: " . $e->getMessage());

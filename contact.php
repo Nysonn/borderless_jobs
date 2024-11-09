@@ -5,7 +5,7 @@
   <div class="main-container">
     <div class="contact-container">
       <h2>Contact Us</h2>
-      <form class="contact-form">
+      <form class="contact-form" action="send_contact_email.php" method="POST">
         <div class="form-group">
           <label for="name">Full Name</label>
           <input type="text" id="name" name="name" required>

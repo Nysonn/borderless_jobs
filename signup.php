@@ -10,7 +10,8 @@
 <body>
     <div class="signup-container">
         <h2>Sign Up</h2>
-        <form action="#" method="POST" autocomplete="off">
+        <form action="backend.php" method="POST" autocomplete="off">
+        <input type="hidden" name="action" value="signup"> <!-- Hidden field to indicate sign-up -->
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>

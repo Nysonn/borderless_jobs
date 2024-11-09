@@ -1,3 +1,7 @@
+<?php
+session_start(); // Start the session
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,8 @@
 <body>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="#" method="POST" autocomplete="off">
+        <form action="backend.php" method="POST" autocomplete="off">
+        <input type="hidden" name="action" value="login"> <!-- Hidden field to indicate login -->
             <div class="form-group">
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="phone" required>

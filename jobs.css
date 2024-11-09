@@ -6,7 +6,7 @@
 
 body {
   font-family: Roboto, Arial;
-  height : 2800px;
+  /* height : 2800px; */
   background-color: #e6e0fd;
 }
 
@@ -248,10 +248,10 @@ footer {
   background-color: #ac96fa;
   padding: 20px;
   color: #fff;
-  /* position : absolute;
+  position : absolute;
   bottom: 0;
   left :0;
-  right : 0; */
+  right : 0;
   margin-top: 100px;
 }
 
